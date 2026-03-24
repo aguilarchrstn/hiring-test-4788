@@ -16,6 +16,8 @@ python3 fetch_dns.py
 
 The script will output a list of domains and their associated DNS records.
 
+## Part Two - Problem Identification
+
 Based on the DNS records retrieved in Part One, a significant issue was identified with the customer's website configuration:
 
 **Issue:** The A record for `site.recruitment.shq.nz` is pointing to a private IP address: `192.168.1.10`.
